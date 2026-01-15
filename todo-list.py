@@ -13,3 +13,10 @@ new_tasks = input("Enter new Task:")
 
 #add tasks to the list
 tasks.append(new_tasks + "/n")
+
+#Save tasks back to file
+file = open("text.txt","w")
+file.writelines(tasks)
+file.close()
+
+print("Tasks Save")
