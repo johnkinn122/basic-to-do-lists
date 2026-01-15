@@ -10,3 +10,6 @@ for task in tasks:
 
 #Ask the user for new Tasks
 new_tasks = input("Enter new Task:")
+
+#add tasks to the list
+tasks.append(new_tasks + "/n")
