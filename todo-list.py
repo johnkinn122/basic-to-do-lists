@@ -7,3 +7,6 @@ file.close()
 print("You Todo List:")
 for task in tasks:
   print(task.strip())
+
+#Ask the user for new Tasks
+new_tasks = input("Enter new Task:")
